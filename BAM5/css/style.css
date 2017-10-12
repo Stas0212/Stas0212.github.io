@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html, body {
+	height: 100vh;
+	overflow: hidden;
+}
+header {
+	height: 100%;
+	width: 100%;
+}
+.header {
+	height: 12%;
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff;
+	align-items: center;
+	border-bottom: 1px #f0f2f7 solid;
+
+}
+.logo {
+	margin-right: 38%;
+}
+.header_menu {
+	position: absolute;
+}
+.header_menu_li {
+	color: black;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+.cart {
+	display: flex;
+	margin-left: 20%;
+	align-items: center;
+}
+.img_cart {
+	padding-right: 10px;
+}
+.cart_name {
+	padding-right: 10px;
+}
+.pcs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.cart_pcs {
+	position: absolute;
+}
+.SRButton {
+	width: 5%;
+	height: 30%;
+	margin-left: 2%;
+	border: solid 1px #f0f2f7;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navi {
+	height: 8%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.links {
+	list-style: none;
+	margin-right: 52%;
+}
+.navi_links {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	color: #dcdee8;
+}
+.support {
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+	color: #dcdee8;
+}
+.search {
+	display: inline-block;
+	position: absolute;
+	margin-left: 32%;
+	text-decoration: none;
+	color: #dcdee8;
+}
+.search_icon {
+	position: absolute;
+	padding-left: 56%;
+}
+.main {
+	background: #1c1e23;
+	height: 80%;
+}
+.main_img {
+	right: 25%;
+	height: 90%;
+	position: absolute;
+}
+.name {
+	position: absolute;
+	font-size: 50pt;
+	color: white;
+	top: 35%;
+	left: 15%;
+}
+.description {
+	position: absolute;
+	font-size: 11pt;
+	color: white;
+	top: 60%;
+	left: 15%;
+}
+.buy {
+	position: absolute;
+	height: 6%;
+	width: 10%;
+	background-color: blue;
+	left: 15%;
+	top: 74%;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buy p {
+	color: white;
+}
