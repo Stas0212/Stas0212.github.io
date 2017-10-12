@@ -1,0 +1,29 @@
+.box {
+	width: 100%;
+	height: 600px;
+	background-color: #f3f5f7;
+}
+.main {
+	margin-top: 8%;
+}
+.why {
+	text-align: center;
+	margin-top: 1%;
+
+}
+.center {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.head {
+	font-size: 18pt;
+	
+}
+p {
+	color: #3b3f6a;
+	font-family: "arvo", arial;
+}
+.zag {
+	font-weight: bold;
+}
