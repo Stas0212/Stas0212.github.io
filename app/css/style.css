@@ -1,0 +1,209 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #202242;
+}
+
+@font-face {
+  font-family: 'Rockwell MT';
+  src: url("RockwellMT-BoldItalic.eot");
+  src: url("RockwellMT-BoldItalic.eot?#iefix") format('embedded-opentype'),url("RockwellMT-BoldItalic.woff2") format('woff2'),url("RockwellMT-BoldItalic.woff") format('woff'),url("RockwellMT-BoldItalic.ttf") format('truetype'),url("RockwellMT-BoldItalic.svg#RockwellMT-BoldItalic") format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Rockwell MT';
+  src: url("RockwellMT.eot");
+  src: url("RockwellMT.eot?#iefix") format('embedded-opentype'),url("RockwellMT.woff2") format('woff2'),url("RockwellMT.woff") format('woff'),url("RockwellMT.ttf") format('truetype'),url("RockwellMT.svg#RockwellMT") format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bold,
+.header-nav li a,
+.reg,
+.semi {
+  font-family: 'raleway',sans-serif;
+  font-weight: 400;
+}
+
+.bold,
+.header-nav li a,
+.semi {
+  font-weight: 600;
+}
+
+.bold,
+.header-nav li a {
+  font-weight: 700;
+}
+
+.header-font,
+.header-font-normal {
+  font-family: 'Rockwell MT';
+  font-weight: 700;
+}
+
+.header-font-normal {
+  font-weight: 400;
+}
+
+header {
+  height: 100vh;
+  min-height: 60rem;
+  background: url("../img/main-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.header-top-block {
+  height: 11rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.header-logo,
+.header-nav {
+  height: 11rem;
+  line-height: 11rem;
+}
+
+.header-logo img {
+  vertical-align: middle;
+}
+
+.header-logo span,
+.header-text-block h1 {
+  font-family: 'Rockwell MT';
+  font-weight: 400;
+}
+
+.header-logo span {
+  margin-left: 1rem;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.header-nav {
+  border-right: 1px solid rgba(164,164,164,.1);
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header-nav li a {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #202242;
+}
+
+.header-nav li a:hover {
+  text-decoration: none;
+}
+
+.header-nav li.item-active a {
+  font-family: 'raleway',sans-serif;
+  font-weight: 700;
+  color: #ffff3e;
+}
+
+.header-callback,
+.header-nav {
+  text-align: center;
+}
+
+.header-callback_text p {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.header-callback_btn {
+  color: #202242;
+  background-color: #ffff3e;
+  padding: 1rem 2.5rem;
+  margin-right: 2rem;
+  font-family: 'raleway',sans-serif;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.header-callback_phone {
+  color: #202242;
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-left: 2px solid rgba(164,164,164,.1);
+  padding-left: 2rem;
+}
+
+.header-text-block {
+  text-align: center;
+  padding-top: 10%;
+  color: #fff;
+}
+
+.header-text-block h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+
+.header-text-block p {
+  font-size: 2rem;
+  font-family: 'raleway',sans-serif;
+  font-weight: 400;
+}
+
+.header-main-img {
+  margin-top: 2rem;
+}
+
+.main-form-block {
+  padding-top: 2rem;
+  width: 50rem;
+  height: 9rem;
+  background-color: rgba(255,255,255,.5);
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.input-addon,
+.main-form-btn,
+.main-form-input {
+  display: inline-block;
+  height: 5rem;
+  vertical-align: middle;
+}
+
+.main-form-input {
+  padding: 1rem;
+  margin-right: -4px;
+  border: 0;
+  width: 40%;
+  background-color: #fff;
+}
+
+.input-addon,
+.main-form-btn {
+  font-family: 'raleway',sans-serif;
+  font-weight: 700;
+  background-color: #ffff3e;
+}
+
+.main-form-btn {
+  border: 0;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.input-addon {
+  line-height: 5rem;
+  width: 8rem;
+  margin-right: -3px;
+}
