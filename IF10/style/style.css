@@ -1,0 +1,80 @@
+body {
+	height: 100vh;
+	font-family: open-sans;
+}
+a {
+	text-decoration: none;
+}
+p {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+.main_block_tomi {
+	background-color: #4eb2f7;
+	height: 25rem;
+	margin-top: 120%;
+	box-shadow: 0 0 20px #4eb2f7;
+}
+.main_block_set {
+	background-color: #c049f8;
+	height: 25rem;
+	margin-top: 120%;
+	
+}
+.main_block_koire {
+	background-color: #817eff;
+	height: 25rem;
+	margin-top: 120%;
+	
+}
+.main_block_lara {
+	background-color: #f74770;
+	height: 25rem;
+	margin-top: 120%;
+}
+.main_text {
+	position: absolute;
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 34%;
+}
+
+.header_text{
+	font-size: 5rem;
+	font-weight: 600;
+}
+.red_header_text {
+	color: #fd8569;
+}
+.more {
+	background-color: #fff;
+	height: 5rem;
+	position: absolute;	
+	margin-top: 22%;
+	margin-left: 7.5%;
+	text-align: center;
+	border-radius: 50px;
+	width: 75%;
+	box-shadow: 0 0 20px black;
+	padding-top: 1.5rem;
+	color: black;
+}
+.tomi_text {
+	text-align: center;
+}
+.tomi {
+	font-size: 2rem;
+}
+.tomi_text {
+	color: #fff;
+}
+.main_block_tomi, .main_block_set, .main_block_koire, .main_block_lara {
+	padding-top: 5rem;
+}
+.fa-camera-retro {
+    -moz-transform: rotate(-25deg); /* Для Firefox */
+    -ms-transform: rotate(-25deg); /* Для IE */
+    -webkit-transform: rotate(-25deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-25deg); /* Для Opera */
+    transform: rotate(-25deg);
+}
